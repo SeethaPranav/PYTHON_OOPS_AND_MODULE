@@ -40,3 +40,30 @@ print(f"Elective Type: {elective_course1.elective_type}")
 
 ![q1](https://github.com/user-attachments/assets/593dc8d9-9f43-4df4-ac86-cb4a8a47323e)
 
+# Create a Python module named employee that contains a class Employee with attributes name, salary and methods get_name() and get_salary(). Write a program to use this module to create an object of the Employee class and display its name and salary.
+
+# employee.py
+
+class Employee:
+
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+    def get_name(self):
+        return self.name
+    def get_salary(self):
+        return self.salary 
+        
+# ASSIGNMENT_6_OOPS.py
+import employee 
+
+emp = employee.Employee("Seetha V", 50000)
+
+print("Employee Name: ", emp.get_name())
+
+print("Employee Salary: ", emp.get_salary())
+
+![q2](https://github.com/user-attachments/assets/c781547b-4cbc-4967-b1ac-e2454377f94d)
+
+
+
